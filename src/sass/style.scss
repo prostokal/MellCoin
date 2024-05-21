@@ -1,10 +1,18 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'blocks/divider';
+@import 'blocks/title';
 @import 'blocks/promo';
-@import 'blocks/header';
-
+@import 'blocks/about';
+@import 'blocks/roadmap';
+@import 'blocks/tokenomika';
 * {
-    font-family: 'Roboto';
+    font-family: "Indie Flower", cursive;
+    margin: 0;
+    padding: 0;
 }
 .container {
     width: 1140px;
+    height: 100%;
     margin: 0 auto;
 }
+
