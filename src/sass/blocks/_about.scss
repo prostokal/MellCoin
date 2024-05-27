@@ -8,7 +8,7 @@
         grid-template-columns: 590px 500px;
         grid-template-rows: minmax(450px, auto);
         grid-auto-rows: minmax(450px, auto);
-        column-gap: 15px;
+        column-gap: 10px;
         justify-content: center;
         align-items: end;
     }
@@ -25,6 +25,7 @@
         }
     }
     &__title {
+        margin-top: 40px;
         font-size: 55px;
         text-align: left;
         span {

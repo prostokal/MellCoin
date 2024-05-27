@@ -1,0 +1,16 @@
+.footer {
+    padding-top: 110px;
+    min-height: 550px;
+    background: linear-gradient(90deg, rgba(15,57,114,1) 0.1%, rgba(44,232,239,1) 57%, rgba(127,119,188,1) 115%);
+    &-wrapper {
+        margin: 0 auto;
+    }
+    &__text {
+        font-size: 27px;
+    }
+    &__model {
+        margin: 0 auto;
+        width: 130px;
+        height: 130px;
+    }
+}

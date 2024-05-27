@@ -1,7 +1,7 @@
 .tokenomika {
     padding-top: 60px;
     background: linear-gradient(90deg, rgba(15,57,114,1) 0.1%, rgba(44,232,239,1) 57%, rgba(127,119,188,1) 115%);
-    min-height: 960px;
+    min-height: 650px;
     &__title {
         margin-top: 50px;
     }
@@ -19,7 +19,7 @@
     &__item {
         position: relative;
         display: grid;
-        grid-template-columns: 260px 40px;
+        grid-template-columns: 230px 40px;
         grid-template-rows: repeat(2, 1fr);
         column-gap: 40px;
         justify-content: space-between;
@@ -48,7 +48,7 @@
     &__explanation {
         margin-top: 60px;
         display: grid;
-        grid-template-columns: repeat(2, 500px);
+        grid-template-columns: repeat(3, 370px);
         grid-template-rows: repeat(auto-fill, minmax(300px, auto));
         grid-auto-rows: minmax(400px, auto);
         gap: 15px;

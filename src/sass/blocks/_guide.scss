@@ -1,0 +1,108 @@
+.guide {
+    padding-top: 110px;
+    min-height: 900px;
+    background: linear-gradient(90deg, rgba(15,57,114,1) 0.1%, rgba(44,232,239,1) 57%, rgba(127,119,188,1) 115%);
+    &__title {
+        margin-top: 50px;
+    }
+    &-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        display: grid;
+        column-gap: 5px;
+        margin-top: 30px;
+    }
+    &__img {
+        width: 600px;
+        height: 630px;
+        border: 4px solid #342475;
+        border-radius: 5px;
+        box-shadow: 6px 4px 7px #342475;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__buy {
+        background: #1cb7c5;
+        padding: 10px;
+        border: 4px solid #000;
+        background-color: #92edff;
+        border-radius: 5px;
+        box-shadow: -6px 5px 5px;
+        &-title {
+            font-size: 31px;
+
+        }
+        &-descr {
+            margin-top: 10px;
+            font-size: 19px;
+            a {
+                color: #000;
+                &:hover {
+                    text-decoration: none;
+                    color: #494646;
+                    transition: all 0.5s;
+                }
+            }
+        }
+    }
+    &__address {
+        margin: 10px auto 0 auto;
+        background: #03b8ff;
+        width: 664px;
+        border: 4px solid black;
+        border-radius: 7px;
+        padding: 10px;
+        &-title {
+            list-style-type: none;
+            text-align: center;
+            font-size: 45px;
+            font-weight: 600;
+        }
+        &-text {
+            font-weight: 400;
+            text-align: center;
+            list-style-type: none;
+            margin-top: 15px;
+            font-size: 20px;
+        }
+    }
+    &-footer {
+        margin: 40px auto 0 auto;
+        display: flex;
+        border: 4px solid black;
+        justify-content: center;
+        align-items: center;
+        background: #66c3d6;
+        width: 660px;
+        height: 90px;
+        border-radius: 5px;
+        &__item {
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            width: 200px;
+            height: 50px;
+            margin: 5px;
+            background: #03b8ff;
+            border: 2px solid  black;
+            box-shadow: -5px 5px 5px;
+            transition: all 0.5s;
+            &:hover {
+                background: #159ad8;
+                box-shadow: -5px -3px 5px;
+                transition: all 0.5s;
+            }
+            &-title {
+                width: 100%;
+                height: 50%;
+                text-align: center;
+                color: black;
+                &:hover {
+                    text-decoration: none;
+                    color: rgb(54, 53, 53);
+                }
+            }
+        }
+    }
+}
