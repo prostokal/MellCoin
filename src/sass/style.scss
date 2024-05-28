@@ -15,8 +15,9 @@
     padding: 0;
 }
 .container {
-    width: 1140px;
     height: 100%;
+    width: 1140px;
     margin: 0 auto;
 }
 
+@import "blocks/media";
