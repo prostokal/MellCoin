@@ -12,14 +12,15 @@
         padding: 50px;
         margin-top: 30px;
         justify-content: center;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template: repeat(2, minmax(70px, auto)) / repeat(3, 250px);
         row-gap: 50px;
         column-gap: 50px;
+        box-shadow: 6px 5px 5px ;
     }
     &__item {
         position: relative;
         display: grid;
-        grid-template-columns: 230px 40px;
+        grid-template-columns: 160px 40px;
         grid-template-rows: repeat(2, 1fr);
         column-gap: 40px;
         justify-content: space-between;

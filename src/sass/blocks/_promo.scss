@@ -1,8 +1,31 @@
 .promo {
-    min-height: 860px;
+    max-height: 930px;
     padding-top: 10px;
     position: relative;
     background: linear-gradient(90deg, rgba(15,57,114,1) 0.1%, rgba(44,232,239,1) 57%, rgba(127,119,188,1) 115%);
+    transition: all .6s;
+    .hamburger {
+        position: absolute;
+        flex-direction: column;
+        display: flex;
+        width: 30px;
+        height: 20px;
+        justify-content: space-around;
+        align-items: end;
+        right: 20px;
+        top: 15px;
+        cursor: pointer;
+        display: none;
+        span {
+            display: block;
+            background: #000;
+            height: 2px;
+            width: 30px;
+            &:nth-child(2) {
+                width: 35px;
+            }
+        }
+    }
     &-header {
         height: 45px;
         border-radius: 11px;
@@ -18,8 +41,14 @@
             align-items: center;
             list-style-type: none;
             &-item {
+                padding: 0 50px;
+                border-right: 1px dashed black;
+                &:last-child {
+                    padding: 0;
+                    border-right: none;
+                }
                 a {
-                   color: #fff;
+                    color: #fff;
                     text-decoration: none;
                     &:hover {
                         color: #fff;
