@@ -51,7 +51,8 @@
                     color: #fff;
                     text-decoration: none;
                     &:hover {
-                        color: #fff;
+                        transition: all 0.5s;
+                        color: #b8afaf;
                     }
                 }
             }

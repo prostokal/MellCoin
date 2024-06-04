@@ -41,6 +41,30 @@
             }
         }
     }
+    .memes {
+        &-wrapper {
+            grid-template-columns: repeat(3, 300px);
+        }
+    }
+    .footer {
+        &-wrapper {
+            margin-top: 150px;
+            width: 80%;
+        }
+        &__text {
+            font-size: 27px;
+        }
+        &__model {
+            &:nth-child(1) {
+                top: 50%;
+                left: -10%;
+            }
+            &:nth-child(2) {
+                top: 50%;
+                right: -10%;
+            }
+        }
+    }
 }
 @media (max-width: 992px) {
     .container {
@@ -136,6 +160,31 @@
             box-shadow: 6px 5px 5px;
         }
     }
+    .memes {
+        height: 900px;
+        &-wrapper {
+            grid-template-columns: repeat(3, 221px);
+        }
+    }
+    .footer {
+        &-wrapper {
+            margin-top: 150px;
+            width: 80%;
+        }
+        &__text {
+            font-size: 22px;
+        }
+        &__model {
+            &:nth-child(1) {
+                top: 50%;
+                left: -18%;
+            }
+            &:nth-child(2) {
+                top: 50%;
+                right: -18%;
+            }
+        }
+    }
 }
 
     @media (max-width: 768px) {
@@ -187,7 +236,39 @@
             }
 
         }
+        .memes {
+            height: 1200px;
+            &-wrapper {
+                grid-template-columns: repeat(2, 246px);
+            }
+            &__item {
+                &:nth-child(3) {
+                    grid-column: 1;
+                    grid-row: 3;
+                }
+            }
+        }
 
+        .footer {
+            &-wrapper {
+                margin-top: 150px;
+                width: 80%;
+            }
+            &__text {
+                font-size: 20px;
+            }
+            &__model {
+                &:nth-child(1) {
+                    
+                    top: -68%;
+                    left: -17%;
+                }
+                &:nth-child(2) {
+                    top: -68%;
+                    right: -17%;
+                }
+            }
+        }
 }
 @media (max-width: 576px) {
     .container {
@@ -340,5 +421,45 @@
                 font-size: 9px;
             }
     }
+    }
+    .memes {
+        min-height: 140rem;
+        &__title {
+            font-size: 55px;
+        }
+        &-wrapper { 
+            justify-content: center;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+            row-gap: 50px;
+        }
+    }
+    .footer {
+        &-wrapper {
+            margin-top: 50px;
+            width: 80%;
+        }
+        &__text {
+            font-size: 22px;
+        }
+        &__model {
+            &:nth-child(1) {
+                display: none;
+            }
+            &:nth-child(2) {
+                display: none;
+            }
+        }
+    }
+}
+@media (max-width: 525px) {
+    .memes {
+        min-height: 110rem;
+        &__title {
+            font-size: 55px;
+        }
+        &-wrapper { 
+            grid-template-rows: repeat(5, 230px);
+        }
     }
 }
