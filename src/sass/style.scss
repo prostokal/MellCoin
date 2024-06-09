@@ -1,4 +1,5 @@
 @import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import 'blocks/divider';
 @import 'blocks/title';
 @import 'blocks/promo';
@@ -11,7 +12,7 @@
 @import 'blocks/about';
 
 * {
-    font-family: "Indie Flower", cursive;
+    font-family: "Shantell Sans", cursive;
     margin: 0;
     padding: 0;
 }
