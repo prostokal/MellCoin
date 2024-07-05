@@ -12,7 +12,7 @@
     &-wrapper {
         display: grid;
         grid-template-rows: repeat(2, minmax(150px, auto));
-        grid-template-columns: repeat(2, 350px);
+        grid-template-columns: repeat(auto-fit, 350px);
         justify-content: center;
         justify-items: center;
         padding: 20px 65px 0 65px;

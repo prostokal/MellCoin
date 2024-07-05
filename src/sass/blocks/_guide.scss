@@ -1,5 +1,5 @@
 .guide {
-    padding-top: 110px;
+    padding: 110px 0px 100px 0px;
     min-height: 900px;
     background: linear-gradient(90deg, rgba(15,57,114,1) 0.1%, rgba(44,232,239,1) 57%, rgba(127,119,188,1) 115%);
     &__title {
@@ -31,7 +31,13 @@
         box-shadow: -6px 5px 5px;
         &-title {
             font-size: 31px;
-
+            a {
+                color: #000;
+                &:hover {
+                    color: #494646;
+                    text-decoration: none;
+                }
+            }
         }
         &-descr {
             margin-top: 10px;
