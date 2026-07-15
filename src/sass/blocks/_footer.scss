@@ -1,22 +1,27 @@
 .footer {
-    padding-top: 10px;
-    min-height: 440px;  
-    background: rgb(16,63,118);
-    background: linear-gradient(90deg, rgb(0, 40, 96) 0.1%, rgb(47, 226, 232) 57%, rgb(155, 141, 255) 115%);
+    padding: 10px 0;
+    min-height: 300px;  
+    background: linear-gradient(90deg, rgba(15,57,114,1) 0.1%, rgba(44,232,239,1) 57%, rgba(127,119,188,1) 115%);
     .divider {
         width: 80%;
         height: 4px;
         margin-top: 0;
     }
     &-wrapper {
+        border: 4px solid black;
+        background: #66c3d6;
+        border-radius: 5px;
+        padding: 5px;
         position: relative;
-        margin: 200px auto 0 auto;
         width: 760px;
+        margin: 80px auto 0 auto;
     }
     &__text {
         font-weight: 600;
         font-size: 28px;
         text-align: center;
+        line-height: 50px;
+ 
     }
     &__model {
         width: 250px;
